@@ -6,7 +6,7 @@ class Fruit:
         self.color = color
     def add_fruits(self, quant):
         self.quantity += quant
-        return f'There are now {self.quantity} {self.name}'
+        return f'There are now {self.quantity} {self.name}s'
     def remove_fruits(self, quant):
         self.quantity -= quant
         return f'The fruits have reduced to {self.quantity} {self.name}'
