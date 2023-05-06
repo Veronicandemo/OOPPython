@@ -16,7 +16,7 @@ class Bank:
             self.balance -= amount
             print(f"Withdrawal was successful and your new balance is  {self.balance}")
         else:
-            print("Insufficient funds.")
+            print("Insufficient funds.Please add funds to withdraw")
     
     def get_balance(self):
         return self.balance
