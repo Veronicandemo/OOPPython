@@ -1,10 +1,10 @@
 class Account:
     bank_name = "Equity Bank"
     
-    def __init__(self, account_holder, account_name, balance):
+    def __init__(self, account_number, account_name, balance):
         # Instance variables
         self.account_number = account_number
-        self.account_holder = account_holder
+        self.account_name = account_name
         self.balance = balance
     
     def deposit(self, amount):
