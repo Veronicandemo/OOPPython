@@ -51,14 +51,6 @@ class Account:
         self.balance -= amount
         other_account.check_deposit
 
-        
-    
-
-acc1 = Account('233465', 'Veronica', 0)
-acc1.deposit(66)
-acc1.withdrawal(100)
-acc1.transact()
-
 # Add a new method  print_statement which combines both deposits and withdrawals into one list and, using a for loop, prints each transaction in a new line like this
 # deposit - 1000
 # withdrawal - 500
